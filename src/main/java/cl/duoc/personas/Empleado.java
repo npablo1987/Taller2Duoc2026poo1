@@ -22,4 +22,18 @@ public class Empleado extends  Persona {
         System.out.println("Atendiendo cliente --->"+nombre);
     }
 
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public Double getSueldo() {
+        return sueldo;
+    }
+
+
+
 }
